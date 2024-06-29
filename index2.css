@@ -1,0 +1,1514 @@
+
+/* General styles */
+body {
+  font-family: Arial, sans-serif;
+  background-color: cornsilk;
+  margin: 0;
+  padding-top: 20px; /* Add padding to the top */
+}
+
+/* Header styles */
+.head {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+  margin-bottom: 20px;
+}
+
+.head h1 {
+  margin: 0;
+}
+
+/* Main container */
+.container {
+  max-width: 1200px; /* Set max-width for content */
+  margin: 0 auto; /* Center align content */
+}
+
+/* Card styles */
+.card {
+  border: 1px solid #ddd;
+  border-radius: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+  padding: 15px;
+  background-color: #fff;
+  
+}
+
+/* .card-header {
+  font-weight: bold;
+  margin-bottom: 10px;
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 10px;
+} */
+
+/* Income table */
+/* .salary {
+  margin-bottom: 0;
+}
+
+.salary table {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: center;
+}
+
+.salary th,
+.salary td {
+  padding: 10px; 
+  border: 1px solid #ddd;
+} */
+
+
+
+/* Expense form */
+.main {
+  margin-bottom: 20px;
+  position: relative;
+  margin-top: -170px;
+  /* margin-top: 20px; */
+ 
+}
+
+.main form {
+  text-align: left;
+}
+
+.main .form-group {
+  margin-bottom: 10px;
+  /* width: 100%; */
+ width: 50%; 
+}
+
+/* Expense table */
+.table {
+  margin-bottom: 20px;
+}
+
+.table table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.table th,
+.table td {
+  padding: 10px;
+  text-align: center;
+  border-bottom: 1px solid #ddd;
+}
+
+.table th {
+  background-color: #f0f0f0;
+  color: #333;
+}
+
+.table .action-buttons {
+  white-space: nowrap; /* Ensure buttons stay in one line */
+}
+
+.table .action-buttons button {
+  margin-right: 10px; /* Add space between buttons */
+}
+
+/* .col-lg-6{
+  margin-right: 10px;
+} */
+
+.row{
+  display: flex;
+  
+  justify-content: space-between; 
+  /* column-gap: 20px; */
+}
+
+
+
+/* Chart container */
+.chart-container {
+ /* margin: auto; */
+  max-width:  60%; 
+ 
+  margin-left: 110px; 
+ /* margin-right: 20px; */
+ /* margin-top: 90px; */
+}
+
+
+
+@media only screen and (max-width: 768px) {
+  
+   .main form {
+    max-width: 60%;
+  } 
+   
+  .chart-container {
+    max-width: 40%;
+  
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  .chart-container {
+    max-width: 30%; 
+    
+  }
+}
+
+@media only screen and (max-width: 428px) {
+  .chart-container {
+     max-width: 20%; 
+  
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  .chart-container {
+     max-width: 15%;
+ 
+  }
+}
+
+
+
+/* Responsive layout */
+/* @media only screen and (max-width: 992px) {
+  .container {
+    padding: 0 15px; /* Add padding to container */
+  /* } */
+
+  /* .col-lg-6 {
+    flex: 0 0 100%; /* Full width for small screens */
+    /* max-width: 100%;
+  } */ */
+
+  /* .main form {
+    text-align: center;
+  }
+} */ */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* General styles */
+/* body {
+  font-family: Arial, sans-serif;
+  background-color: #f8f9fa;
+  margin: 0;
+} */
+
+/* Header styles */
+/* .head {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+  margin-bottom: 20px;
+}
+
+.head h1 {
+  margin: 0;
+} */
+
+/* Main container */
+/* .main {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.main form {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+}
+
+.main form label {
+  flex: 0 0 100%;
+  text-align: left;
+}
+
+.main form select,
+.main form input[type="number"],
+.main form button {
+  flex: 0 0 calc(50% - 10px);
+}
+
+.main form button {
+  flex: 0 0 100%;
+} */
+
+/* Salary table */
+/* .salary {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.salary table {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: center;
+}
+
+.salary th,
+.salary td {
+  padding: 10px;
+} */
+
+/* Expense table */
+/* .table table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+.table th,
+.table td {
+  padding: 10px;
+  text-align: center;
+  border-bottom: 1px solid #ddd;
+} */
+
+/* .table th {
+  background-color: #f0f0f0;
+  color: #333;
+} */
+
+/* Responsive layout */
+/* @media only screen and (max-width: 768px) {
+  .main form select,
+  .main form input[type="number"],
+  .main form button {
+    flex: 0 0 calc(100% - 20px);
+  }
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
+/* Reset default browser styles */
+/* * {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+} */
+
+/* Body styles */
+/* body {
+  font-family: Arial, sans-serif;
+  background-color: #f8f9fa;
+  color: #343a40;
+} */
+
+/* Header styles */
+/* .head {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+} */
+
+/* .head h1 {
+  margin: 0;
+} */
+
+/* Main container */
+/* .container {
+  max-width: 1000px;
+  margin: 20px auto;
+  padding: 0 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+} */
+
+/* Card styles */
+/* .card {
+  flex: 1 1 calc(50% - 20px);
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.card h2 {
+  margin-top: 0;
+  color: #333;
+} */
+
+/* Form styles */
+/* .form-group {
+  margin-bottom: 15px;
+}
+
+form label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+} */
+
+/* form select,
+form input[type="number"],
+form button {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+form button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  cursor: pointer;
+} */
+
+/* Summary styles */
+/* .summary {
+  text-align: center;
+  padding: 20px;
+}
+
+.summary-item {
+  margin-bottom: 10px;
+}
+
+.summary-label {
+  font-weight: bold;
+}
+
+.summary-value {
+  font-weight: bold;
+  color: #009688;
+} */
+
+/* Table styles */
+/* .table-container {
+  overflow-x: auto;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+} */
+
+/* table th,
+table td {
+  padding: 10px;
+  text-align: center;
+  border-bottom: 1px solid #ddd;
+}
+
+table th {
+  background-color: #f0f0f0;
+  color: #333;
+} */
+
+/* Responsive layout */
+/* @media only screen and (max-width: 768px) {
+  .card {
+    flex: 1 1 calc(100% - 20px);
+  }
+} */ */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
+Header styles */
+/* .head {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 10px 0;
+} */
+
+/* .head h1 {
+  margin: 0;
+} */
+
+/* Main container */
+/* .container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+} */
+
+/* Card styles */
+/* .card {
+  flex: 1 1 300px; /* Adjust width as per design needs */
+  /* background-color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+} */ */
+
+/* .card h2 {
+  margin-top: 0;
+  color: #333;
+} */
+
+/* Form styles */
+/* .form-group {
+  margin-bottom: 15px;
+  text-align: left;
+} */
+/* 
+form label {
+  display: block;
+  margin-bottom: 5px;
+} */
+
+/* form select,
+form input[type="number"],
+form button {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  font-size: 14px;
+}
+
+form button {
+  background-color: #333;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+/* Summary styles */
+/* .summary {
+  text-align: center;
+  padding: 20px;
+}
+
+.summary-item {
+  margin-bottom: 10px;
+}
+
+.summary-label {
+  font-weight: bold;
+}
+
+.summary-value {
+  font-weight: bold;
+  color: #009688;
+}
+
+/* Table styles */
+/* .table-container { */
+  /* overflow-x: auto;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 10px;
+}
+
+table th,
+table td {
+  padding: 10px;
+  text-align: center;
+  border-bottom: 1px solid #ddd;
+} */
+
+/* table th {
+  background-color: #f0f0f0; */
+  /* color: #333;
+} */
+
+/* Responsive layout */
+/* @media only screen and (max-width: 768px) {
+  .card {
+    flex: 1 1 100%; /* Adjust for full width on smaller screens */
+  /* }
+}  */
+
+
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* 
+body {
+  background-color: #f8f9fa;
+  font-family: Arial, sans-serif;
+}
+
+.head h1 {
+  color: #343a40;
+}
+
+.main {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.main form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.card {
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card-header {
+  background-color: #007bff;
+  color: white;
+  border-radius: 10px 10px 0 0;
+  font-weight: bold;
+  text-align: center;
+}
+
+.table-borderless th, .table-borderless td {
+  border: none;
+}
+
+.table th {
+  background-color: #f1f1f1;
+  text-align: center;
+}
+
+#editModal .modal-header {
+  background-color: #007bff;
+  color: white;
+}
+
+#editModal .modal-footer .btn-primary {
+  background-color: #007bff;
+}
+
+#editModal .modal-footer .btn-secondary {
+  background-color: #6c757d;
+}
+
+#editModal .form-group label {
+  font-weight: bold;
+}
+
+.table-responsive {
+  overflow-x: auto;
+}
+
+#expenses2 {
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+
+
+@media (max-width: 600px) {
+  .main form label, .main form input, .main form select, .main form button {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+
+  .main form input, .main form select {
+    width: calc(100% - 20px);
+  }
+
+  .salary table {
+    width: 100%;
+  }
+
+  table, th, td {
+    font-size: 14px;
+  }
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* body{
+    /* background-image: url(./index2bg-1.avif); */
+    /* background-color: snow;
+    background-repeat:no-repeat;
+    background-size: 100% 200vh;
+}
+
+.head{
+display: flex;
+justify-content: center;
+padding: 10px;
+
+}
+.main ul {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px;
+    font-size: 20px;
+  }
+  /* ul {
+    padding: 20px;
+  } */
+  /* li {
+    list-style-type: none;
+    font-weight: bold;
+  } */
+  /* #option {
+    height: 30px;
+    width: 200px;
+    font-size: 20px;
+  }
+  .second th{
+   border: 2px solid #d9e0e157;
+   border-radius: 10px;
+   padding-left:60px;
+   padding-right: 50px;
+   padding-top: 5px;
+   padding-bottom: 5px;
+    font-size: 20px;
+    font-family: "Overlock SC", sans-serif;
+    /* border-style: none; */
+    /* background-color: turquoise;
+    color: white;
+  } */ */
+  /* .second td{
+    background-color: beige;
+    text-align: center;
+    border-top: 5px;
+    padding: 5px;
+    margin: 10px;
+    border-radius: 10px;
+  } */
+  /* .first th {
+    border: 2px solid #d9e0e157;
+    border-radius: 10px;
+    padding: 10px 60px 10px 50px;
+    font-size: 20px;
+    font-family: "Overlock SC", sans-serif;
+    background-color: turquoise;
+    color: white;
+
+  } */
+  /* .first{
+   border-collapse: collapse;
+    border-radius: 1em;
+    border: none; 
+
+  }
+  .first td{
+    background-color: beige;
+    font-size: 25px;
+    text-align: center;
+    border: 2px solid rgb(255, 253, 253);
+    padding: 2px;
+    border-radius: 10px;
+  } */
+  /* .table .second {
+    margin-left: 120px;
+    margin-top: 50px;
+  } 
+  tr{
+    border-radius: 10px;
+  }
+  .salary{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 18px;
+
+  } */
+  /* li button {
+    padding: 0px 30px 0px 30px;
+    border-radius: 6px;
+  }
+  li input {
+    border-radius: 6px;
+  }
+  li select {
+    border-radius: 6px;
+  }
+  #btnn{
+    height: 30px;
+    width: 30px;
+    cursor: pointer;
+  } */
+  /* #btn:hover
+  {
+    background-color:aquamarine
+    color-black
+  }
+  #btnImg{
+    height: 32px ;
+    width: 31px;
+  }
+  body h1{
+    text-align: center;
+    font-size: 50px;
+    padding-left: 20px;
+    font-weight: bold;
+    font-family:" Valuta"
+  } */
+  /* .head img{
+    margin-top: 10px;
+  }
+  #btn{
+    /* position: relative;
+    right: 226px; */
+
+    /* margin-left: 30px;
+    border-radius: 10px;
+  } */
+/* #amount{
+    padding: 0px 3px 1px 8px;
+    font-family:" Valuta"
+}
+#category-select{
+    border: 2px solid black;
+    padding: 3px 20px 3px 50px;
+} */ */
+
+/* .main{
+    /* display: flex;
+    flex-direction:row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif; */
+
+    /* margin-top: 10px;
+    margin-left:200px ;
+} */ */
+/* .first tr th,td{
+    font-family: "STIX Two Text", serif;
+    font-weight:bold ;
+}
+.second tr th{
+   font-family: "Reem Kufi Fun", sans-serif;
+   font-weight:bold;
+   font-size: 22px;
+} */
+/* .second tr td{
+    font-family: "Caudex", serif;
+    font-size: 21px;
+}
+form ul li label{
+    font-family: "Reem Kufi Fun", sans-serif;
+}
+.second th{
+    border: 2px solid black;
+} */
+/* .final{
+  margin-left: 1050px;
+  width: 350px;
+  text-decoration: underline;
+  border-radius:10px;
+  position: fixed;
+  top:330px;
+}
+#head{
+  text-align: center;
+} */
+/* .final ul li{
+  font-size: 25px;
+  background-color: rgb(220, 221, 213);
+  padding: 20px 30px 15px 15px;
+}
+.final ul{
+  padding: 10px 1px 10px 0px;
+}
+h3{
+font-size: 30px;
+font-family:"Caudex", serif;
+font-weight: bold;
+padding: 10px 2px 10px 2px;
+margin-bottom: -10px;
+background-color: rgb(12, 78, 124);
+color: white;
+} */
+/* #dl{
+  height: 30px;
+  font-size: 15px;
+  font-weight: bold;
+  border-radius: 5px;
+  background-color: rgb(12, 78, 124) ;
+  color: white;
+  position: relative;
+  right: 30px;
+}
+#dl:hover{
+  background-color: aqua;
+  color: white
+} */
+/* .head button{
+  position: relative;
+  left: 200px;
+  top: 36px;
+}
+/* media qearies */
+/* @media (max-width:428px){
+  body h1 {
+    font-size:  35px;
+    text-align: center;
+    position: relative;
+    left: 146px;
+} */ */
+  /* .main ul {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    font-size: 20px;
+    flex-wrap: nowrap;
+} */
+/* .head button{
+position: relative;
+left: 117px;
+top: 25px;
+}
+body {
+  background-image: url(./index2bg-1.avif);
+  background-repeat: no-repeat;
+  background-size:177% 256vh;
+} */
+/* li input {
+  border-radius: 6px;
+  margin-left: 140px;
+}
+li select {
+  border-radius: 6px;
+  margin-left: 180px;
+} */
+/* label {
+  display: inline-block;
+  max-width: 100%;
+  margin-bottom: 5px;
+  font-weight: 700;
+  margin-left: 51px;
+}
+#btn {
+  position: relative;
+  right: 100px;
+  top: 33px;
+} */
+/* .salary {
+  display: flex;
+  /* justify-content: center; */
+  /* align-items: center;
+  margin-top: 18px;
+  margin-left: -80px;
+  /* margin-right: ; */
+/* } */ */
+/* table {
+  background-color: transparent;
+  margin-left: 0px;
+} */
+/* .table {
+  display: flex;
+  margin-top: 44px;
+  margin-left: 1px;
+} */
+/* .final {
+  margin-left: 200px;
+  width: 344px;
+  border-radius: 10px;
+  position: relative;
+  top: 348px;
+} */ */
+/* .head img {
+  margin-top: 4px;
+  left: 242px;
+  position: relative;
+  left: 146px;
+} */
+/* .head button {
+  position: relative;
+  left: 247px;
+  top: 25px;
+} */
+/* form ul li label {
+  font-family: "Reem Kufi Fun", sans-serif;
+  margin-left: 187px;
+}
+}*/*/*/*/

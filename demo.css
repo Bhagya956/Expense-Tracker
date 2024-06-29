@@ -1,0 +1,302 @@
+/* body{
+    /* background-image: url(./index2bg-1.avif); */
+    /* background-color: snow;
+    background-repeat:no-repeat;
+    background-size: 100% 200vh;
+}
+
+.head{
+display: flex;
+justify-content: center;
+padding: 10px;
+
+}
+.main ul {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px;
+    font-size: 20px;
+  }
+  /* ul {
+    padding: 20px;
+  } */
+  /* li {
+    list-style-type: none;
+    font-weight: bold;
+  } */
+  /* #option {
+    height: 30px;
+    width: 200px;
+    font-size: 20px;
+  }
+  .second th{
+   border: 2px solid #d9e0e157;
+   border-radius: 10px;
+   padding-left:60px;
+   padding-right: 50px;
+   padding-top: 5px;
+   padding-bottom: 5px;
+    font-size: 20px;
+    font-family: "Overlock SC", sans-serif;
+    /* border-style: none; */
+    /* background-color: turquoise;
+    color: white;
+  } */ */
+  /* .second td{
+    background-color: beige;
+    text-align: center;
+    border-top: 5px;
+    padding: 5px;
+    margin: 10px;
+    border-radius: 10px;
+  } */
+  /* .first th {
+    border: 2px solid #d9e0e157;
+    border-radius: 10px;
+    padding: 10px 60px 10px 50px;
+    font-size: 20px;
+    font-family: "Overlock SC", sans-serif;
+    background-color: turquoise;
+    color: white;
+
+  } */
+  /* .first{
+   border-collapse: collapse;
+    border-radius: 1em;
+    border: none; 
+
+  }
+  .first td{
+    background-color: beige;
+    font-size: 25px;
+    text-align: center;
+    border: 2px solid rgb(255, 253, 253);
+    padding: 2px;
+    border-radius: 10px;
+  } */
+  /* .table .second {
+    margin-left: 120px;
+    margin-top: 50px;
+  } 
+  tr{
+    border-radius: 10px;
+  }
+  .salary{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 18px;
+
+  } */
+  /* li button {
+    padding: 0px 30px 0px 30px;
+    border-radius: 6px;
+  }
+  li input {
+    border-radius: 6px;
+  }
+  li select {
+    border-radius: 6px;
+  }
+  #btnn{
+    height: 30px;
+    width: 30px;
+    cursor: pointer;
+  } */
+  /* #btn:hover
+  {
+    background-color:aquamarine
+    color-black
+  }
+  #btnImg{
+    height: 32px ;
+    width: 31px;
+  }
+  body h1{
+    text-align: center;
+    font-size: 50px;
+    padding-left: 20px;
+    font-weight: bold;
+    font-family:" Valuta"
+  } */
+  /* .head img{
+    margin-top: 10px;
+  }
+  #btn{
+    /* position: relative;
+    right: 226px; */
+
+    /* margin-left: 30px;
+    border-radius: 10px;
+  } */
+/* #amount{
+    padding: 0px 3px 1px 8px;
+    font-family:" Valuta"
+}
+#category-select{
+    border: 2px solid black;
+    padding: 3px 20px 3px 50px;
+} */ */
+
+/* .main{
+    /* display: flex;
+    flex-direction:row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    font-family: Arial, Helvetica, sans-serif; */
+
+    /* margin-top: 10px;
+    margin-left:200px ;
+} */ */
+/* .first tr th,td{
+    font-family: "STIX Two Text", serif;
+    font-weight:bold ;
+}
+.second tr th{
+   font-family: "Reem Kufi Fun", sans-serif;
+   font-weight:bold;
+   font-size: 22px;
+} */
+/* .second tr td{
+    font-family: "Caudex", serif;
+    font-size: 21px;
+}
+form ul li label{
+    font-family: "Reem Kufi Fun", sans-serif;
+}
+.second th{
+    border: 2px solid black;
+} */
+/* .final{
+  margin-left: 1050px;
+  width: 350px;
+  text-decoration: underline;
+  border-radius:10px;
+  position: fixed;
+  top:330px;
+}
+#head{
+  text-align: center;
+} */
+/* .final ul li{
+  font-size: 25px;
+  background-color: rgb(220, 221, 213);
+  padding: 20px 30px 15px 15px;
+}
+.final ul{
+  padding: 10px 1px 10px 0px;
+}
+h3{
+font-size: 30px;
+font-family:"Caudex", serif;
+font-weight: bold;
+padding: 10px 2px 10px 2px;
+margin-bottom: -10px;
+background-color: rgb(12, 78, 124);
+color: white;
+} */
+/* #dl{
+  height: 30px;
+  font-size: 15px;
+  font-weight: bold;
+  border-radius: 5px;
+  background-color: rgb(12, 78, 124) ;
+  color: white;
+  position: relative;
+  right: 30px;
+}
+#dl:hover{
+  background-color: aqua;
+  color: white
+} */
+/* .head button{
+  position: relative;
+  left: 200px;
+  top: 36px;
+}
+/* media qearies */
+/* @media (max-width:428px){
+  body h1 {
+    font-size:  35px;
+    text-align: center;
+    position: relative;
+    left: 146px;
+} */ */
+  /* .main ul {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+    font-size: 20px;
+    flex-wrap: nowrap;
+} */
+/* .head button{
+position: relative;
+left: 117px;
+top: 25px;
+}
+body {
+  background-image: url(./index2bg-1.avif);
+  background-repeat: no-repeat;
+  background-size:177% 256vh;
+} */
+/* li input {
+  border-radius: 6px;
+  margin-left: 140px;
+}
+li select {
+  border-radius: 6px;
+  margin-left: 180px;
+} */
+/* label {
+  display: inline-block;
+  max-width: 100%;
+  margin-bottom: 5px;
+  font-weight: 700;
+  margin-left: 51px;
+}
+#btn {
+  position: relative;
+  right: 100px;
+  top: 33px;
+} */
+/* .salary {
+  display: flex;
+  /* justify-content: center; */
+  /* align-items: center;
+  margin-top: 18px;
+  margin-left: -80px;
+  /* margin-right: ; */
+/* } */ */
+/* table {
+  background-color: transparent;
+  margin-left: 0px;
+} */
+/* .table {
+  display: flex;
+  margin-top: 44px;
+  margin-left: 1px;
+} */
+/* .final {
+  margin-left: 200px;
+  width: 344px;
+  border-radius: 10px;
+  position: relative;
+  top: 348px;
+} */ */
+/* .head img {
+  margin-top: 4px;
+  left: 242px;
+  position: relative;
+  left: 146px;
+} */
+/* .head button {
+  position: relative;
+  left: 247px;
+  top: 25px;
+} */
+/* form ul li label {
+  font-family: "Reem Kufi Fun", sans-serif;
+  margin-left: 187px;
+}
+} */ */ */
