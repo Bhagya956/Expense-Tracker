@@ -27,7 +27,7 @@ body {
 }
 
 /* Card styles */
-.card {
+/* .card {
   border: 1px solid #ddd;
   border-radius: 20px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
@@ -37,12 +37,12 @@ body {
   
 }
 
-/* .card-header {
+.card-header {
   font-weight: bold;
   margin-bottom: 10px;
   border-bottom: 1px solid #ddd;
   padding-bottom: 10px;
-} */
+} */ 
 
 /* Income table */
 /* .salary {
@@ -59,7 +59,7 @@ body {
 .salary td {
   padding: 10px; 
   border: 1px solid #ddd;
-} */
+}
 
 
 
@@ -165,10 +165,97 @@ body {
 
 @media only screen and (max-width: 320px) {
   .chart-container {
-     max-width: 15%;
+     max-width: 25%;
  
   }
 }
+
+
+ @media (max-width:1200px){
+  .main {
+    margin-bottom: -10px;
+    position: relative;
+    margin-top: 20px;
+    /* margin-top: 20px; */
+   
+  }
+  
+  .main form {
+    text-align: left;
+  }
+  
+  .main .form-group {
+    margin-bottom: 10px;
+    /* width: 100%; */
+   width: 90%; 
+  }
+  
+}
+
+@media(max-width:1200px){
+  .table th,
+.table td {
+
+  text-align: center;
+  border-bottom: 1px solid #ddd;
+  font-size: small;
+
+}
+
+.table th {
+  background-color: #f0f0f0;
+  color: #333;
+  margin-left: 2px;
+}
+
+}
+
+@media(max-width:1200px){
+  .table {
+    margin-bottom: 50px;
+    margin-right:200px;
+  }
+  
+  .table table {
+    width:fit-content;
+    border-collapse: collapse;
+  }
+  
+}
+
+@media(max-width:1200px){
+  .chart-container {
+    /* margin: auto; */
+     max-width:  50%; 
+    
+     margin-left: 110px; 
+    /* margin-right: 20px; */
+    margin-top: 90px; 
+   }
+   
+   
+}
+
+
+
+
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
